@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robo Automaters</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+        <script src="https://kit.fontawesome.com/be625547ed.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="Robo Automaters"></a>
+            <div class="nav-links" id="navlinks">
+                <ul>
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOGS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+
+    </section>
+
+<!-- ---------course------- -->
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>We offer a variety of courses and programs designed to enhance your skills and knowledge in technology and engineering.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Robotics Course</h3>
+            <p>Our Robotics Course is an interactive and hands-on program that aims to introduce students to the world of robotics and automation. We provide various robotics kits, including Lego-based robotic kits and different microprocessor-based kits, to help students learn the basics of robotics in a fun and engaging way.</p>
+        </div>
+        <div class="course-col">
+            <h3>Arduino Course</h3>
+            <p>The Arduino Course is a hands-on program that teaches you how to use the Arduino microcontroller to create various electronic devices. Through this course, you will learn about the fundamental concepts of electronics and programming, including input/output, analog and digital signals, sensors, motors, and more.</p>
+        </div>
+        <div class="course-col">
+            <h3>Raspberry Pi</h3>
+            <p>The Raspberry Pi Course is a hands-on curriculum that teaches you how to make different projects with the Raspberry Pi, including media centers, gaming consoles, web servers, and more. This course will introduce you to the essential ideas of computer hardware and software, such as operating systems, programming languages, and networking.</p>
+        </div>
+    </div>
+</section>
+
+<!-- -------facilites--------- -->
+
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png">
+            <h3>Experienced Trainers</h3>
+            <p>Our team consists of trained and experienced robotics and STEM trainers who are also engineers. They provide personalized attention to each student, ensuring that they receive the education they need to excel.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.png">
+            <h3>AI-Based Portal</h3>
+            <p>Our state-of-the-art portal helps students improve their grades and performance by providing personalized feedback, practice tests, and more.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafeteria.png">
+            <h3>On-site Workshops</h3>
+            <p>We provide on-site workshops for schools, colleges, and universities to ensure that students have access to our education, regardless of their location.</p>
+        </div>
+    </div>
+    <div class="row2">
+        <div class="facilities-col">
+            <img src="images/library.png">
+            <h3>Customized Curriculum</h3>
+            <p>We design our curriculum based on the needs of our clients, ensuring that they receive education that is relevant and practical.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.png">
+            <h3>Latest Technology</h3>
+            <p>We provide the latest technology and equipment, allowing students to gain hands-on experience with cutting-edge tools and techniques.</p>
+        </div>
+    </div>
+</section>
+
+<!-- -------Footer----- -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>RoboAutomators provides affordable STEM and technology education with experienced trainers and an AI-based portal to improve <br> students' performance. Our mission is to make technology education accessible to everyone in Pakistan.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with  <i class="fa fa-heart-o"></i> by Usman Shakeel</p>
+</section>
+
+
+
+
+
+
+
+<!-- ------------------Javscript Toggle Menu--------------- -->
+<script>
+    var navLinks = document.getElementById("navlinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-210px";
+    }
+</script>
+
+
+
+</body>
+
+</html>
